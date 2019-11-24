@@ -1,22 +1,83 @@
+body {
+  margin: 0;
+}
+
 .App {
-  text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.titleSearch {
+  background-color: #000;
+  display: block;
+  color: #fff;
+  padding-left: 16;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tableList {
+  display: block;
+  padding-left: 16;
+  width: 100%;
 }
 
-.App-link {
-  color: #09d3ac;
+.classDesc {
+  padding-left: 10;
+}
+
+.container {
+  width: 100%;
+  display: inline-block;
+  margin: 10;
+  padding: 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.left {
+  display: table-cell;
+  color: #fff;
+  vertical-align: middle;
+  margin-left: 10;
+  padding: 0 0 0 10;
+  top: 0;
+}
+.right {
+  display: table-cell;
+  color: #000;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+
+.titlem {
+  font-size: 14px;
+  top: 10;
+}
+.descm {
+  font-size: 8px;
+}
+.imgm {
+  width: 100px;
+}
+
+.row {
+  margin: 10px;
+}
+
+.subTitle {
+  font-size: 10px;
+  margin: 0;
+  padding: 0 10;
+}
+
+.votem {
+  font-size: 6px;
+}
+
+.descb {
+  font-size: 6px;
+  bottom: 10px;
+}
+.btnM {
+  position: relative;
+  font-size: 8px;
+  width: 70px;
+  bottom: -10px;
 }

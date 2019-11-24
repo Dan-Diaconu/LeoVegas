@@ -1,0 +1,21 @@
+{
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true
+    },
+    "extends": ["plugin:prettier/recommended", "eslint:recommended"],
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "rules": {
+      "no-console": "error",
+      "no-unused-vars": "off",
+      "no-unused-expressions": "off"
+    },
+    "globals": {
+      "document": false
+    }
+  } 
